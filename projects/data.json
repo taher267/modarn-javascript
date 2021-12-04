@@ -1,0 +1,7 @@
+{
+	"persons": [{"name": "Belal",   "age": 31,  "hometown": "Bagerhat", "married": true},
+		{"name": "Helal",   "age": 28,  "hometown": "Bagerhat", "married": false},
+		{"name": "Taher",   "age": 27,  "hometown": "Bagerhat", "married": false},
+		{"name": "Suvo",    "age": 20,  "hometown": "Cumilla",  "married": false}
+	]
+}

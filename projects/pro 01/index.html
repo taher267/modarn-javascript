@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON</title>
+    <link rel="stylesheet" href="../../assets/css/all.min.css">
+    <link rel="stylesheet" href="../../assets/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <form id="task_form">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="form-group">
+                        <label for="enterText">Task</label>
+                        <input type="text" name="enterTask" id="enterTask" class="form-control" placeholder="text here.." aria-describedby="helpId">
+                    </div>
+                </div> 
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="form-group">
+                        <button type="submit" class="form-control btn-primary">Submit</button>
+                    </div>
+                </div> 
+            </div>
+        </form>
+
+        <div class="row">
+           <div class="col-lg-6">
+                <div class="form-group">
+                    <label for="enterText">Task</label>
+                    <input type="text" name="" id="filterTask" class="form-control" placeholder="Filter Task" aria-describedby="helpId">
+                </div>
+              <h3>Task List</h3>
+              <ul class="list-unstyled"></ul>
+              <button id="clearTask" class="btn btn-danger">Clear Task</button>
+           </div> 
+        </div>
+    </div>
+
+    <!-- <div class="container">
+        <div class="row">
+            
+        </div>
+    </div> -->
+    <script src="script.js"></script>
+</body>
+</html>
