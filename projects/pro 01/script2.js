@@ -11,7 +11,7 @@ clearTask.addEventListener('click', clearAllTask);
 
 FiltTask.addEventListener('keyup', filterlist);
 document.addEventListener('DOMContentLoaded', getTasks);
-
+// <li> text <a href='#'><i class="fa"> text  </i></a> </li>
 function addTask(e) {   
     if (taskVal.value =='') {
      alert('Fill the task Field')   ;
@@ -37,7 +37,8 @@ function removeTask(e) {
     if (e.target.hasAttribute('remv') && confirm('Are you Sure?')) {
         let ele = e.target.parentElement.parentElement;
         ele.remove();
-        taskListFromLocalStore(ele);
+        taskListFromLocalStore(e.target.parentElement);
+        // taskListFromLocalStore(ele);
     }
    
     e.preventDefault();
@@ -109,11 +110,10 @@ function taskListFromLocalStore(taskItem) {
     }
 
     let li = taskItem;
-    li.removeChild(li.lastChild);
+    console.log(li);
     tasks.forEach((task, inx)=>{
-        let againli = li.textContent.trim();
-        console.log(againli);
         if (li.textContent.trim() === task) {
+        // if (li.children[0].textContent.trim() === task) {
             tasks.splice(inx,1);
         }
     });

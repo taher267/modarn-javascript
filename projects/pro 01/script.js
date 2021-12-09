@@ -105,8 +105,6 @@ function taskListFromLocalStore(taskItem) {
     let li = taskItem;
     li.removeChild(li.lastChild);
     tasks.forEach((task, inx)=>{
-        let againli = li.textContent.trim();
-        console.log(againli);
         if (li.textContent.trim() === task) {
             tasks.splice(inx,1);
         }
