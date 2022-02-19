@@ -106,6 +106,7 @@ reg = /^(\+88)?(88)?01([0-9]){9}$/; str = "01962054584";
 //email vaidation abu.taher334@gmail.com.bd
 // reg = /^([a-z])+\.?([0-9]+)?[^\.]@([a-z]\.?)+[^\.]$/; str = 'abutaher267@gmail.com.com';
 // reg = /^([a-z])+\.?([0-9]+)?[^\.]@([a-z]+\.?)([a-z]+\.?)[a-z]+[^\.]$/; str = 'abutaher267@gmail.com.bd'; //rule2 
+//!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(values.email) formik email validaiton
 reg = /^([a-z]\.?)+([0-9]+)?[^\.]@([a-z]+\.?)([a-z]+\.?)[a-z]+[^\.]$/; str = 'support.du.edu.343@edu.gov.bd'; 
 
 console.log(reg.test(str));
