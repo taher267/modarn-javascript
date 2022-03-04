@@ -88,6 +88,7 @@ reg = /^([0-9]){5}o/; str = '55445o' //Must be 5 times times [0-9][0-9][0-9][0-9
 
 //phone number pattern check
 reg = /^01([0-9]){9}$/; str = '01662054586'; //
+reg = /(\+88)?-?01[1-9]\d{8}/
 //Shorthand Character Classes
 reg = /\w/; str = "+jkj9e8*{(&+-e8erw98e9r8e" //word Char -alpha numeric or _, only not Allow str = "!@#$%^&*()-=+"; 
 reg = /\w+/; //One or More
