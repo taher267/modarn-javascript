@@ -111,6 +111,7 @@ reg = /^(\+88)?(88)?01([0-9]){9}$/; str = "01962054584";
 reg = /^([a-z]\.?)+([0-9]+)?[^\.]@([a-z]+\.?)([a-z]+\.?)[a-z]+[^\.]$/; str = 'support.du.edu.343@edu.gov.bd'; 
 //username regex:/^[a-z][-a-z0-9]*$/ //Must start with Alpha and allow hyphen-, a-z,0-9
 ///^[a-z][a-z0-9 ]*$/ alpha_num and whire space
+//passowrd /^(?=.*[0-9])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{8,32}$/
 console.log(reg.test(str));
 // result = reg.exec(str);
 // console.log(result);
