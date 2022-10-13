@@ -125,3 +125,7 @@ function regTest(){
         console.log(`'${str}' doesn't matches '${reg.source}'`);
     }
 }
+
+
+//Strong passwor and username
+// https://prnt.sc/IYh1cMir4CB8
