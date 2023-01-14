@@ -116,6 +116,10 @@ reg = /^([a-z]\.?)+([0-9]+)?[^\.]@([a-z]+\.?)([a-z]+\.?)[a-z]+[^\.]$/; str = 'su
 console.log(reg.test(str));
 // result = reg.exec(str);
 // console.log(result);
+// regex replaces all between the open and closed curly bracket
+reg= /\{[^}]*\}/g;
+// let str = `klfjsdkfjds{-whole-}fsjdfkjsdf`;
+
 regTest();
 function regTest(){
     if(reg.exec(str)) 
