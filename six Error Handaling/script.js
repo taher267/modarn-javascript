@@ -105,6 +105,7 @@ reg = /x(?=y)/;  str= "zxy"; //x and y besides and if x must be before y
 reg = /x(?!y)/;  str= "jfkdfdkyfdjkfjdx"; //if y must be before x
 reg = /^(\+88)?(88)?01([0-9]){9}$/; str = "01962054584";
 //email vaidation abu.taher334@gmail.com.bd
+// /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/; email from open ai
 // reg = /^([a-z])+\.?([0-9]+)?[^\.]@([a-z]\.?)+[^\.]$/; str = 'abutaher267@gmail.com.com';
 // reg = /^([a-z])+\.?([0-9]+)?[^\.]@([a-z]+\.?)([a-z]+\.?)[a-z]+[^\.]$/; str = 'abutaher267@gmail.com.bd'; //rule2 
 //!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(values.email) formik email validaiton
