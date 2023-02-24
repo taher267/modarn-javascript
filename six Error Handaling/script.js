@@ -134,3 +134,7 @@ function regTest(){
 
 //Strong passwor and username
 // https://prnt.sc/IYh1cMir4CB8
+
+
+//specific pattern
+/^{"id":"[\w\-\.\d+]*","src":"[\w\-\:\.\/\&\%\d+]*"}$/
