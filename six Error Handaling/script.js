@@ -131,6 +131,10 @@ function regTest(){
     }
 }
 
+//Between double quote replace by hypen
+// console.log(str2.replace(/"[^"]*"/g, '--------------------'))
+
+
 
 //Strong passwor and username
 // https://prnt.sc/IYh1cMir4CB8
