@@ -142,3 +142,7 @@ function regTest(){
 
 //specific pattern
 /^{"id":"[\w\-\.\d+]*","src":"[\w\-\:\.\/\&\%\d+]*"}$/
+
+// white space now allow end of and start of string
+/^[^\s][^\s]+$/
+
